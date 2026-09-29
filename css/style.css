@@ -7,12 +7,14 @@ body{
     color:rgb(43, 0, 32);
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../assets/img/image.png')
 }
 header {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-    align-items: center;
+    background-color: rgba(221, 113, 194, 0.678);
+    align-items:center ;
 
 }
 header img{
@@ -31,22 +33,31 @@ header img{
     gap: 20px;
 }
 #Apresentaçao{
+    margin-top: 40px;
     background-color: rgb(238, 130, 186);
     padding: 20px;
 }
+#Apresentaçao h2{
+    color: rgb(250, 253, 255);
+    font-size: 50px;
+}
 #Apresentaçao img{
+    margin-top: 10px;
     width:100%;
-    height: 600px;
+    height: 650px;
     object-fit: cover;
+    border-radius: 12px;
 }
 #servicos{
-    background-color: pink;
-    border-radius: 12px;
+ background-color: rgb(243, 117, 205);
 }
 #texto{
 margin-top:40px;
 font-size: 30px;
 padding: 20px;
+}
+#texto h2{
+    color:#f8f8f7
 }
 #fotos{
     padding: 20px;
@@ -57,18 +68,23 @@ padding: 20px;
 
 }
 .bolo-cards{
-    padding: 10px;
-   background-color: rgba(230, 177, 231, 0.642); 
+   padding: 10px;
+   background-color: rgb(255, 232, 246); 
    width:25%;
+   border-radius: 12px;
 }
 .bolo-cards img{
     width: 100%;
+    border-radius: 12px;
 }
 #requisitos {
     margin-top:40px;
 padding: 20px;
-background-color: rgb(186, 16, 212);
+background-color: rgb(252, 126, 184);
 
+}
+#lista{
+    padding: 20px;
 }
 #requisitos h2{
     font-size: 24px;
@@ -77,26 +93,29 @@ background-color: rgb(186, 16, 212);
 }
 table{
     width: 100%;
-    max-width: 800px;
     border-collapse: collapse;
     margin-top: 10px;
+    background-color: rgb(245, 233, 219);
 }
 
 td {
-    border: 1px solid #4b023f;
+    border: 1.8px solid #e253ca;
     text-align: center;
 }
 
 th {
-    border: 1px solid #35013e;
+    border: 1.8px solid #f012ad;
 }
 
 #section-table {
     display: flex;
     justify-content: center;
+    
 }
 footer {
+    margin-top: 10px;
     padding: 20px;
+    background-color: rgb(238, 213, 234);
 }
 
 #identificacao {
